@@ -1,0 +1,56 @@
+body{
+    line-height: 1.6;
+}
+
+.set{
+    margin: 0% 5%;
+    height: 100px;
+}
+
+.label{
+    margin: 30px 0px 10px 0px;
+    text-align: left;
+}
+
+.detail{
+    margin: 0px;
+    text-align: right;
+    line-height: 1.6;
+    transition: 0.3s ease;
+}
+
+.detail a:visited{color: gray;}
+.detail a:link{color: #0f8500;}
+.detail a:hover{
+    font-weight: bold;
+    color: black;}
+.detail a:active{color: #16b5ff;}
+
+.short{
+    display: none;
+}
+
+.etc{
+    margin: 0px 5%;
+    line-height: 1.6;
+}
+
+.line{
+    margin: 120px auto 0px;
+}
+
+@media screen and (max-width: 1200px){
+    .short{
+        display: block;
+    }
+    .long{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    .detail{
+        font-size: 18px;
+    }
+}

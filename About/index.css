@@ -1,0 +1,97 @@
+body{
+    line-height: 1.6;
+}
+
+.intro{
+    text-align: center;
+}
+
+.intro td{
+    vertical-align: top;
+}
+
+.mypic{
+    margin: 0% 10% 5% 5%;
+    width: 80%;
+    max-width: 600px;
+    border: solid orange 5px;
+    border-radius: 40px;
+    box-shadow: 10px 15px 5px gray;
+}
+
+.mpic{
+    display: none;
+}
+
+.detail{
+    margin: 0% 5% 0% 10%;
+    text-indent: 20px;
+    text-align: justify;
+    max-width: 700px;
+}
+
+.title{
+    margin: 5% 5% 0%;
+}
+
+.ll{ margin: 20px auto 60px 5%;}
+.rl{ margin: 20px 5% 60px auto;}
+
+.profileset{
+    margin: 0% 5%;
+    height: 100px;
+}
+.label{
+    font-size: 25px;
+    margin: 0px;
+    text-align: left;
+    float: left;
+}
+.answer{
+    font-size: 25px;
+    margin: 0px;
+    text-align: right;
+    float: right;
+}
+
+.edulabel{
+    font-size: 25px;
+    margin: 0% 5%;
+}
+.edulabely{
+    font-size: 20px;
+    margin: 0% 5%;
+    color: gray;
+}
+
+
+@media screen and (max-width: 800px){
+    .mypic, .detail{
+        margin: 0% 10% 10%;
+    }
+
+    .mpic{
+        display: block;
+    }
+
+    .pcpic{
+        display: none;
+    }
+
+    .ll, .rl{
+        margin: 20px auto 60px;
+    }
+
+    .title, .edulabel, .edulabely{
+        text-align: center;
+    }
+
+    .label, .answer, .edulabel{
+        font-size: 20px;
+    }
+
+    .edulabely{
+        font-size: 16px;
+    }
+    
+}

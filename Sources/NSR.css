@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "NanumSquareRound";
+    font-style: normal;
+    font-weight: 300;
+    src: url("NanumSquareRoundL.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "NanumSquareRound";
+    font-style: normal;
+    font-weight: 700;
+    src: url("NanumSquareRoundB.woff2") format("woff2");
+}

@@ -1,0 +1,50 @@
+body{
+    line-height: 1.6;
+}
+.listlabel{
+    margin: 10px 0px;
+    letter-spacing: 5px;
+}
+.list{
+    width: 100%;
+}
+
+.bt{
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    border: solid black 3px;
+    border-radius: 20px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+.bt:hover{
+    background-color: black;
+    color: white;
+    text-shadow: 3px 3px #777777;
+}
+.bt:active{
+    background-color: orange;
+}
+#next{
+    margin: 10px 10px 10px auto;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+}
+.item{
+    width: 100%;
+    margin: 0px;
+    padding: 3px 0px;
+}
+
+.line{
+    width: 150px;
+    border-bottom: dotted 5px grey;
+    margin: 50px auto 0px;
+}

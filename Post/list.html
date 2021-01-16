@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Sources/font.css">
+        <link rel="stylesheet" href="../header.css">
+        <link rel="stylesheet" href="list.css">        
+        <link rel="stylesheet" href="../Sources/NSR.css">
+        <link rel="icon" href="../Sources/Images/ico.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script src="index.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <p class="listlabel nsr f25">All Post List</p>
+        <table class="list">
+            <thead>
+                <td class="nsr f20 bold" style="width: 70%;">제목</td>
+                <td class="nsr f20 bold right">날짜</td>
+            </thead>
+            <tbody id="list">
+                <tr>
+                    <td class="nsr f20"><a href="#" target="_parent"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td class="nsr f20"><a href="#" target="_parent"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td class="nsr f20"><a href="#" target="_parent"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td class="nsr f20"><a href="#" target="_parent"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td class="nsr f20"><a href="#" target="_parent"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bt nsr f18 bold" id="prev" onclick="prev()">◀ 이전</div>
+                    </td>
+                    <td class="right">
+                        <div class="bt nsr f18 bold" id="next" onclick="next()">다음 ▶</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="nsr f18 center" style="color: gray;" id="pages"></p>
+        <p id="lsize" style="display: none;">5</p>
+    </body>
+</html>

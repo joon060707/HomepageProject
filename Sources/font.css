@@ -1,0 +1,34 @@
+.nsr{
+    font-family: 'NanumSquareRound', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.jua{
+    font-family: 'Jua', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+.mj{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.bold{font-weight: 700;}
+
+.f12{ font-size: 12px;}
+.f14{ font-size: 14px;}
+.f16{ font-size: 16px;}
+.f18{ font-size: 18px;}
+.f20{ font-size: 20px;}
+.f22{ font-size: 22px;}
+.f25{ font-size: 25px;}
+.f36{ font-size: 36px;}
+.f40{ font-size: 40px;}
+.f48{ font-size: 48px;}
+.f72{ font-size: 72px;}
+
+.left{ text-align: left;}
+.right{ text-align: right;}
+.center{ text-align: center;}

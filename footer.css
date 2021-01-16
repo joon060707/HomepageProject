@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+}
+
+.sns{
+    width: 100%;
+}
+
+.snsin{
+    height: 100px;
+    margin: auto;
+    padding: 90px 0px;
+}
+
+td{
+    padding: 5px;
+}
+
+
+.bt{
+    width: 40px;
+    height: 40px;
+    border: solid 5px black;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    transition: 0.3s ease;
+}
+
+.bt:hover{
+    background-color: #424242;
+}
+
+.bt:hover p{
+    color: white;
+}
+.btxt{
+    margin: 0px;
+    transition: 0.3s ease;
+}
+
+.blog{
+    padding-top: 11px;
+}
+
+.gh{
+    padding-top: 5px;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #000000aa;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.ico{
+    background-image: url("Sources/Images/ico.png");
+    background-size: 70px 70px;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+.cp{
+    margin: 5px;
+    color: white;
+    font-size: 15px;
+}

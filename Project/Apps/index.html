@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Apps - Project - TJHL</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../Sources/font.css">
+        <link rel="stylesheet" href="../../header.css">
+        <link rel="stylesheet" href="index.css">        
+        <link rel="stylesheet" href="../../Sources/NSR.css">
+        <link rel="icon" href="../../Sources/Images/ico.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script src="header.js"></script>
+        <script src="index.js"></script>
+
+
+        <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="mobmenu">
+                <div class="menuimg" onclick="menulist()">
+                    <svg width="80px" height="80px">
+                    <rect x="15px" y="18px" width="50px" height="8px" rx="4px" fill="#ffffff99"/>
+                    <rect x="15px" y="36px" width="50px" height="8px" rx="4px" fill="#ffffff99"/>
+                    <rect x="15px" y="54px" width="50px" height="8px" rx="4px" fill="#ffffff99"/>
+                    </svg>
+                </div>
+                <div class="menulist" id="mlist" style="display: none;">
+                    <a class="link1" href="../../About/index.html"><p class="bttxtm jua f25">About</p></a>
+                    <a class="link1" href="../../Project/index.html"><p class="bttxtm jua f25">Project</p></a>
+                    <a class="link1" href="../../Post/index.html"><p class="bttxtm jua f25">Post</p></a>
+                    <a class="link1" href="../../Contact/index.html"><p class="bttxtm jua f25">Contact</p></a>
+                </div>
+            </div>
+            <a href="../../About/index.html"><div class="btbg" id="about"><p class="bttxt jua f25">About</p></div></a>
+            <a href="../../Project/index.html"><div class="btbg" id="project"><p class="bttxt jua f25">Project</p></div></a>
+            <div style="display: inline-block;"><a href="../../index.html"><div class="ico"></div></a></div>
+            <a href="../../Post/index.html"><div class="btbg" id="post"><p class="bttxt jua f25">Post</p></div></a>
+            <a href="../../Contact/index.html"><div class="btbg" id="contact"><p class="bttxt jua f25">Contact</p></div></a>
+        </div>
+
+        <article class="doctitle">
+            <p class="st1 jua f48">Apps</p>
+            <p class="st2 nsr f20" id="st2">시작은 단순해도 끝은 아름답기를!</p>
+        </article>
+
+        <article class="select">
+            <p class="applist nsr f20 center">
+                <b>Games</b></b><br/>-<br/>
+                <a id="app01" style="color: red;" href="#1" onclick="setvalue(data, 0)">Candy Collector</a> | 
+                <a id="app02" style="color: orange;" href="#2" onclick="setvalue(data, 1)">One Second Game</a> | 
+                <a id="app03" style="color: brown;" href="#3" onclick="setvalue(data, 2)">Lucky Fifty</a> | 
+                <br/><br/><b>Apps</b><br/>-<br/>
+                <a id="app04" style="color: skyblue;" href="#4" onclick="setvalue(data, 3)">초심플 만보기</a> | 
+                <a id="app05" style="color: skyblue;" href="#5" onclick="setvalue(data, 4)">초심플 메모장</a> | 
+                <a id="app06" style="color: green;" href="#6" onclick="setvalue(data, 5)">두구누구 누구두구</a> | 
+                <a id="app07" style="color: orange;" href="#7" onclick="setvalue(data, 6)">뭐가 더 저렴하니?</a>
+            </p>
+        </article>
+
+        <div class="line"></div>
+
+        <article class="showzone">
+            <p class="title nsr f48 bold" id="title">로딩중...</p>
+            <p class="info nsr f20" id="info1">로딩중...</p>
+            <img class="appico" id="appico" src="../../Sources/Images/ico.png"/>
+            <p class="info nsr f20" id="info2">로딩중...</p>
+            <table class="detailbox"><tr>
+                    <td><p class="label nsr f25 bold">출시일</p><p class="detail nsr f20" id="date">로딩중...</p></td>
+                    <td><p class="label nsr f25 bold">현재 버전</p><p class="detail nsr f20" id="ver">로딩중...</p></td>
+                    <td><p class="label nsr f25 bold">다운로드 수</p><p class="detail nsr f20" id="count">로딩중...</p></td>
+                </tr></table>
+                <p class="label nsr f25 bold">스크린샷</p>
+                <div class="screenshot">
+                    <a href="../../Sources/Images/ico.png" target="_blank"><img id="sc1" src="../../Sources/Images/ico.png"/></a>
+                    <a href="../../Sources/Images/ico.png" target="_blank"><img id="sc2" src="../../Sources/Images/ico.png"/></a>
+                    <a href="../../Sources/Images/ico.png" target="_blank"><img id="sc3" src="../../Sources/Images/ico.png"/></a>
+                    <a href="../../Sources/Images/ico.png" target="_blank"><img id="sc4" src="../../Sources/Images/ico.png"/></a>
+                </div>
+                <div class="buttons">
+                    <a id="ps" target="_blank" href="#"><div class="button nsr f20 bold">Play Store 바로 가기</div></a>
+                    <a id="blog" target="_blank" href="#"><div class="button nsr f20 bold">블로그 글 바로 가기</div></a>
+                </div>
+           
+        </article>
+
+        <div class="line"></div>
+
+
+        <footer style="height: 401px;">
+            <iframe class="foot" src="../../footer.html"></iframe>
+            <p id="docname">project</p>
+        </footer>
+
+    </body>
+</html>

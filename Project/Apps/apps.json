@@ -1,0 +1,82 @@
+{
+    "appcount":7,
+    "data":[
+        {
+            "title": "Candy Collector",
+            "info1": "마지막 앱 인벤터 게임인 Space Travel의 느낌을 그대로 물려받은 나의 첫 안드로이드 스튜디오 게임",
+            "info2": "화면 좌우를 터치해가며 다양한 크기의 사탕을 모으는 단순한 게임입니다.<br/>플레이 중 다양한 업적을 획득하고 그에 따른 포인트를 얻을 수 있습니다.",
+            "date": "2020.09.09",
+            "ver": "1.7.6",
+            "count": "약 7회",
+            "appico": "../../Sources/Images/Apps/app01ico.png",
+            "scr": ["../../Sources/Images/Apps/app0101.png", "../../Sources/Images/Apps/app0102.png", "../../Sources/Images/Apps/app0103.png", "../../Sources/Images/Apps/app0104.png"],
+            "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.candycollector","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=31"]
+        },
+        {
+            "title": "One Second Game",
+            "info1": "앱 인벤터로 만든 게임을 보완하여 리마스터한 첫 앱이자 2번째 안드로이드 스튜디오 게임",
+            "info2": "자신의 시간 및 박자 감각을 테스트해볼 수 있는 게임입니다.<br/>타이머를 보고 정확히 XX초 00이 될 때 1초 버튼을 터치하면 되며,<br/>100점부터 시작하여 0.01초 오차 당 1점씩 감점됩니다.",
+            "date": "2020.09.27",
+            "ver": "1.2.7",
+            "count": "약 8회",
+            "appico": "../../Sources/Images/Apps/app02ico.png",
+            "scr": ["../../Sources/Images/Apps/app0201.png", "../../Sources/Images/Apps/app0202.png", "../../Sources/Images/Apps/app0203.png", "../../Sources/Images/Apps/app0204.png"],
+            "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.onesecondgame","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=37"]
+        },
+        {
+            "title": "Lucky Fifty",
+            "info1": "5년 전 노트 한구석에 적혀 있던 게임, 마침내 살아나다.",
+            "info2": "1부터 50까지의 상자를 제한 시간 내에 정확히 터치하는 게임입니다.<br/>순발력과 정확성이 요구되는 게임입니다.",
+            "date": "2020.11.13",
+            "ver": "1.0.0",
+            "count": "약 3회",
+            "appico": "../../Sources/Images/Apps/app03ico.png",
+            "scr": ["../../Sources/Images/Apps/app0301.png", "../../Sources/Images/Apps/app0302.png", "../../Sources/Images/Apps/app0303.png", "../../Sources/Images/Apps/app0304.png"],
+            "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.luckyfiftygame","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=52"]
+        },
+        {
+            "title": "초심플 만보기",
+            "info1": "시작은 심플했지만, 과정이 복잡했던 나의 첫 일반 앱",
+            "info2": "가벼운 만보기 앱으로 하루 걸음을 기록할 수 있습니다.<br/>오늘의 걸음 수, 목표 설정 등 필수적인 기능만 넣어<br/>앱의 무게를 줄였습니다.",
+            "date": "2020.10.26",
+            "ver": "1.1.4",
+            "count": "약 30회",
+            "appico": "../../Sources/Images/Apps/app04ico.png",
+            "scr": ["../../Sources/Images/Apps/app0401.png", "../../Sources/Images/Apps/app0402.png", "../../Sources/Images/Apps/app0403.png", "../../Sources/Images/Apps/app0404.png"],
+            "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.stepcounter","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=48"]
+        },
+        {
+            "title": "초심플 메모장",
+            "info1": "내가 만들고 내가 가장 잘 쓰고 있는 나의 2번째 일반 앱",
+            "info2": "간단한 메모장 앱으로 텍스트 메모를<br/>기록하고, 저장하고, 불러올 수 있습니다.<br/>복사 또는 공유를 이용해 다른 앱으로 보낼 수 있습니다.",
+            "date": "2020.10.31",
+            "ver": "1.2.6",
+            "count": "약 13회",
+            "appico": "../../Sources/Images/Apps/app05ico.png",
+            "scr": ["../../Sources/Images/Apps/app0501.png", "../../Sources/Images/Apps/app0502.png", "../../Sources/Images/Apps/app0503.png", "../../Sources/Images/Apps/app0504.png"],
+            "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.SimpleNote","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=49"]
+        },
+        {
+            "title": "두구누구 누구두구",
+            "info1": "2020년 나를 가장 놀라게 해주었던, 최초로 다운로드 수 50회를 돌파한 고마운 앱",
+            "info2": "절차식으로 쉽게 진행하는 뽑기 앱입니다.<br/>순서 정하기 모드, 당첨자 모드, 이름 모드, 숫자 모드 등<br/>다양한 뽑기 방식을 이용할 수 있습니다.",
+            "date": "2020.11.21",
+            "ver": "1.0.1",
+            "count": "약 60회",
+            "appico": "../../Sources/Images/Apps/app06ico.png",
+            "scr": ["../../Sources/Images/Apps/app0601.png", "../../Sources/Images/Apps/app0602.png", "../../Sources/Images/Apps/app0603.png", "../../Sources/Images/Apps/app0604.png"],
+            "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.randomdraw","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=54"]
+        },
+        {
+            "title": "뭐가 더 저렴하니?",
+            "info1": "2021년 새해를 연 앱이자 어머니께 인정받은(?) 앱",
+            "info2": "두 상품의 단위당 가격을 비교해주는 앱입니다.<br/>입력만 해주면 단위 가격과<br/>얼마나 더 저렴한지 비율을 보여줍니다.​",
+            "date": "2021.01.01",
+            "ver": "1.0.0",
+            "count": "약 1회",
+            "appico": "../../Sources/Images/Apps/app07ico.png",
+            "scr": ["../../Sources/Images/Apps/app0701.png", "../../Sources/Images/Apps/app0702.png", "../../Sources/Images/Apps/app0703.png", "../../Sources/Images/Apps/app0704.png"],
+            "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.compareprice","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=61"]
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    line-height: 1.6;
+}
+
+#docname{
+    display: none;
+}
+
+.header{
+    background: url("Sources/Images/main_bg.jpg") center;
+    background-position: 50% 50%;
+    background-size: 120%;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+}
+
+.ico{
+    background-image: url("Sources/Images/ico.png");
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    padding-bottom: 35px;
+    margin: 10px;
+    transition: 0.3s ease;
+}
+
+.ico:hover{
+    background-size: 80px 80px;
+    padding-bottom: 25px;
+    width: 80px;
+    height: 80px;
+}
+
+.btbg{
+    display: inline-block;
+    padding-top: 10px;
+    margin: 10px calc(10% - 60px);
+    width: 120px;
+    height: 100px;
+    transition: 0.3s ease;
+    background-size: 120px 100px;
+    background-repeat: no-repeat;
+}
+
+.btbg:hover{
+    background-image: url("Sources/Images/select.svg");
+    background-position: 0% 100%;
+
+}
+
+.bttxt{
+    margin: 0%;
+    position: absolute;
+    top: 28px;
+    width: inherit;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.btbg:hover .bttxt{
+    color: black;
+    top: 25px;
+    font-size: 28px;
+}
+
+.mobmenu{
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 80px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.mobmenu:hover{
+    background-color: #00000088;
+}
+
+.menulist{
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    width: 100%;
+    padding: 10px 20px;
+    background-image: linear-gradient(0deg, #eab000ad 30%, #ffd34e8a 90%);
+    box-shadow: 0px 10px 15px 0px rgb(51, 51, 51);
+    transition: 0.3s ease;
+}
+
+.bttxtm{
+    text-align: left;
+    margin: 10px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.bttxtm:active{
+    font-size: 28px;
+    color: white;
+}
+
+.link1{
+    text-decoration: none;
+}
+
+
+
+
+article{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.doctitle{
+    height: 300px;
+    text-align: center;
+}
+
+.st1{
+    margin-top: 200px;
+}
+
+.st2{
+    color: white;
+    letter-spacing: 20px;
+    margin: auto;
+    padding: 30px;
+    transition: 0.3s ease;
+    line-height: 1.6;
+}
+
+.st2:hover{
+    font-size: 26px;
+}
+
+
+
+
+.line{
+    width: 150px;
+    border-bottom: dotted 5px grey;
+}
+
+
+
+.foot{
+    width: 100%;
+    height: 401px;
+    border: none;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 800px){
+    .btbg{display: none;}
+    .mobmenu{display: block;}
+    .ico{
+        margin: 25px;
+        padding: 0px;
+    }
+    .ico:hover{margin: 15px;}
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Post - TJHL</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Sources/font.css">
+        <link rel="stylesheet" href="../header.css">
+        <link rel="stylesheet" href="index.css">        
+        <link rel="stylesheet" href="list.css">  
+        <link rel="stylesheet" href="../Sources/NSR.css">
+        <link rel="icon" href="../Sources/Images/ico.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script src="../header.js"></script>
+        <script src="index.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <div class="header">
+                <div class="mobmenu">
+                    <div class="menuimg" onclick="menulist()">
+                        <svg width="80px" height="80px">
+                        <rect x="15px" y="18px" width="50px" height="8px" rx="4px" fill="#ffffff99"/>
+                        <rect x="15px" y="36px" width="50px" height="8px" rx="4px" fill="#ffffff99"/>
+                        <rect x="15px" y="54px" width="50px" height="8px" rx="4px" fill="#ffffff99"/>
+                        </svg>
+                    </div>
+                    <div class="menulist" id="mlist" style="display: none;">
+                        <a class="link1" href="../About/index.html"><p class="bttxtm jua f25">About</p></a>
+                        <a class="link1" href="../Project/index.html"><p class="bttxtm jua f25">Project</p></a>
+                        <a class="link1" href="../Post/index.html"><p class="bttxtm jua f25">Post</p></a>
+                        <a class="link1" href="../Contact/index.html"><p class="bttxtm jua f25">Contact</p></a>
+                    </div>
+                </div>
+                <a href="../About/index.html"><div class="btbg" id="about"><p class="bttxt jua f25">About</p></div></a>
+                <a href="../Project/index.html"><div class="btbg" id="project"><p class="bttxt jua f25">Project</p></div></a>
+                <div style="display: inline-block;"><a href="../index.html"><div class="ico"></div></a></div>
+                <a href="../Post/index.html"><div class="btbg" id="post"><p class="bttxt jua f25">Post</p></div></a>
+                <a href="../Contact/index.html"><div class="btbg" id="contact"><p class="bttxt jua f25">Contact</p></div></a>
+            </div>
+
+        <article class="doctitle">
+                <p class="st1 jua f48">Post</p>
+                <p class="st2 nsr f20" id="st2">소중한 하루가 쌓여 나의 미래가 되는 거겠죠?</p>
+        </article>
+
+        <article class="listwrapper">
+            <p class="listlabel nsr f25">All Post List</p>
+            <table class="list">
+            <thead>
+                <td class="nsr f20 bold" style="width: 70%;">제목</td>
+                <td class="nsr f20 bold right">날짜</td>
+            </thead>
+            <tbody id="list">
+                <tr>
+                    <td class="nsr f20"><a href="#"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td class="nsr f20"><a href="#"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td class="nsr f20"><a href="#"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td class="nsr f20"><a href="#"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td class="nsr f20"><a href="#"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td class="nsr f20"><a href="#"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td class="nsr f20"><a href="#"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td class="nsr f20"><a href="#"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td class="nsr f20"><a href="#"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td class="nsr f20"><a href="#"><p class="item"></p></a></td>
+                    <td class="nsr f20 right"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bt nsr f18 bold" id="prev" onclick="prev()">◀ 이전</div>
+                    </td>
+                    <td class="right">
+                        <div class="bt nsr f18 bold" id="next" onclick="next()">다음 ▶</div>
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+            <p class="nsr f18 center" style="color: gray;" id="pages"></p>
+        </article>
+
+        <footer style="height: 401px;">
+            <iframe class="foot" src="../footer.html"></iframe>
+            <p id="docname">post</p>
+            <p id="lsize" style="display: none;">10</p>
+        </footer>
+
+    </body>
+</html>

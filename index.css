@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    line-height: 1.3;
+}
+
+.mainheader{
+    background: url("Sources/Images/main_bg.jpg") center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+.ico{
+    background-image: url("Sources/Images/ico.png");
+    background-size: 80px 80px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 80px;
+    height: 80px;
+    transition: 0.3s ease;
+}
+
+.ico:hover{
+    background-size: 120px 120px;
+    top: 30px;
+    right: 30px;
+    width: 120px;
+    height: 120px;
+}
+
+.maintxt{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    position: absolute;
+    color: #ffffff;
+    left: 10%;
+    margin: 0%;
+}
+.tt1{
+    top: 200px;
+    text-shadow: 8px 8px 2px #333333;
+}
+.tt2{
+    top: 560px;
+    text-shadow: 5px 5px 2px #333333;
+    line-height: 1.5;
+}
+.lgr{ color: #ccff99;}
+.yel{ color: #ffff00;}
+.grey{ color: #7f7f7f;}
+
+.menu{
+    margin: 0px auto;
+    padding-top: 80px;
+    max-width: 1500px;
+    background-color: white;
+    border-radius: 30px;
+    transition: 0.5s ease;
+}
+
+.menu:hover{
+    margin: 30px auto;
+    background-color: #cccccc;
+}
+
+.menutxt{
+    margin: 0% 20%;
+    padding: 24px 0px;
+    line-height: 1.6;
+}
+
+.menuwithimg{
+    width: 100%;
+}
+
+td{
+    width: 50%;
+}
+
+.menuimg{
+    width: calc(100px + 17%);
+    transition: 0.3s ease;
+}
+.menuimg:hover{
+    width: calc(100px + 25%);
+}
+
+.mlink:link, :visited{
+    color: black;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.mobileimg{
+    width: 100%;
+    display: none;
+}
+
+.line{
+    width: 300px;
+    border-bottom: dotted 5px grey;
+    margin: 80px auto 0px auto;
+}
+
+.foot{
+    width: 100%;
+    height: 401px;
+    border: none;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 600px){
+
+    .mainheader{
+        height: 600px;
+    }
+
+    .tt1{
+        top: 160px;
+        font-size: 48px;
+    }
+
+    .tt2{
+        top: 400px;
+        font-size: 36px;
+    }
+
+    .mobileimg{
+        display: block;
+    }
+
+    .pcimg{
+        display: none;
+    }
+
+    .menutxt{
+        text-align: center;
+        margin: 0% 10%;
+    }
+}

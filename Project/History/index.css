@@ -1,0 +1,25 @@
+body{
+    line-height: 1.6;
+}
+
+.history{
+    padding: 0% 5%;
+}
+
+.set{height: 60px;}
+
+p{margin: 0px 5px;}
+
+.date{float: left;}
+
+.dsc{float: right;}
+
+.line{
+    margin: 120px auto 0px;
+}
+
+@media screen and (max-width:800px){
+    .date, .dsc{
+        font-size: 20px;
+    }
+}

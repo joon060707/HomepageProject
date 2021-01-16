@@ -1,0 +1,95 @@
+body{
+    line-height: 1.6;
+}
+
+.select, .showzone{
+    padding: 0% 5%;
+    text-align: center;
+}
+
+.set{height: 60px;}
+
+p{margin: 0px;}
+
+.applist a{
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.applist a:hover{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.title, .info, .label, .detail{
+    text-align: center;
+}
+
+.title{
+    padding: 50px 0px 0px;
+}
+.info{
+    padding: 30px 0px;
+}
+.appico{
+    width: 80%;
+    max-width: 500px;
+}
+.detailbox{
+    width: 100%;
+    margin: 50px auto;
+}
+.detailbox td{
+    width: 33%;
+}
+
+.detail{
+    padding: 20px 5px;
+}
+
+.screenshot, .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*
+flex 정렬
+justify-content: 가로방향 정렬
+align-items: 세로방향 정렬
+*/
+.screenshot img{
+    width: 100%;
+    max-width: 350px;
+    margin: 30px 10px;
+}
+
+.button{
+    width: fit-content;
+    margin: 20px;
+    padding: 30px;
+    color: black;
+    border: solid black 3px;
+    border-radius: 20px;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+.buttons a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    text-shadow: 5px 5px #777777;
+}
+
+
+.line{
+    margin: 120px auto 0px;
+}
+
+@media screen and (max-width:800px){
+    .label{font-size: 20px;}
+    .detail{font-size: 18px;}
+
+}
