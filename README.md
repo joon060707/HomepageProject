@@ -8,3 +8,6 @@
 홈페이지 프로젝트:  https://joon060707.github.io/HomepageProject/
 
 블로그:  https://blog.naver.com/joon060707
+
+
+![홈페이지 캡쳐](capture.jpeg)
