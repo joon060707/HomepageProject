@@ -20,8 +20,8 @@ function setvalue(data, position){
     var plist=["title", "info1", "info2", "date", "ver", "count"];
     var imglist=["appico", "sc1", "sc2", "sc3", "sc4"];
     var linklist=["ps", "blog"];
-    var applist=["app01","app02","app03","app04","app05","app06","app07"];
-    var colorlist=["red","orange","brown","skyblue","skyblue","green","orange"];
+    var applist=["app01","app02","app03","app04","app05","app06","app07","app08"];
+    var colorlist=["red","orange","brown","skyblue","skyblue","green","orange","gray"];
 
     for(h=0; h<applist.length; h++){
         document.getElementById(applist[h]).style="color: "+colorlist[h]+";";
