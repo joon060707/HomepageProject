@@ -51,7 +51,7 @@
             "info2": "간단한 메모장 앱으로 텍스트 메모를<br/>기록하고, 저장하고, 불러올 수 있습니다.<br/>복사 또는 공유를 이용해 다른 앱으로 보낼 수 있습니다.",
             "date": "2020.10.31",
             "ver": "1.2.6",
-            "count": "약 13회",
+            "count": "약 25회",
             "appico": "../../Sources/Images/Apps/app05ico.png",
             "scr": ["../../Sources/Images/Apps/app0501.png", "../../Sources/Images/Apps/app0502.png", "../../Sources/Images/Apps/app0503.png", "../../Sources/Images/Apps/app0504.png"],
             "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.SimpleNote","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=49"]
