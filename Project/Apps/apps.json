@@ -40,7 +40,7 @@
             "info2": "가벼운 만보기 앱으로 하루 걸음을 기록할 수 있습니다.<br/>오늘의 걸음 수, 목표 설정 등 필수적인 기능만 넣어<br/>앱의 무게를 줄였습니다.",
             "date": "2020.10.26",
             "ver": "1.1.5",
-            "count": "약 30회",
+            "count": "약 55회",
             "appico": "../../Sources/Images/Apps/app04ico.png",
             "scr": ["../../Sources/Images/Apps/app0401.png", "../../Sources/Images/Apps/app0402.png", "../../Sources/Images/Apps/app0403.png", "../../Sources/Images/Apps/app0404.png"],
             "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.stepcounter","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=48"]
@@ -62,7 +62,7 @@
             "info2": "절차식으로 쉽게 진행하는 뽑기 앱입니다.<br/>순서 정하기 모드, 당첨자 모드, 이름 모드, 숫자 모드 등<br/>다양한 뽑기 방식을 이용할 수 있습니다.",
             "date": "2020.11.21",
             "ver": "1.0.2",
-            "count": "약 60회",
+            "count": "약 110회",
             "appico": "../../Sources/Images/Apps/app06ico.png",
             "scr": ["../../Sources/Images/Apps/app0601.png", "../../Sources/Images/Apps/app0602.png", "../../Sources/Images/Apps/app0603.png", "../../Sources/Images/Apps/app0604.png"],
             "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.randomdraw","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=54"]
@@ -83,8 +83,8 @@
             "info1": "머리, 인내심, 끈기, 실패가 모두 필요한 이상한 게임",
             "info2": "두뇌 테스트 게임과 비슷한 형식의 게임입니다.<br/>그러나 별도의 힌트 없이 스스로 모든 것을 해결해야 하는 게임입니다.",
             "date": "2021.01.30",
-            "ver": "1.0.0",
-            "count": "약 0회",
+            "ver": "1.1.0",
+            "count": "약 1회",
             "appico": "../../Sources/Images/Apps/app08ico.png",
             "scr": ["../../Sources/Images/Apps/app0801.png", "../../Sources/Images/Apps/app0802.png", "../../Sources/Images/Apps/app0803.png", "../../Sources/Images/Apps/app0804.png"],
             "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.unknowngame","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=68"]
