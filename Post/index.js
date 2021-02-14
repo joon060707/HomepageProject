@@ -30,7 +30,8 @@ function makelist(data, size){
     }
     alllist.sort((left, right) => right[2]-left[2]);        //내림차순       // 값이 양수면 자리바꿈.
     // alllist.sort((left, right) => left[2]-right[2]);        //오름차순
-    maxpos=(data.doclist.length - data.doclist.length%size)/size;
+    // maxpos=(data.doclist.length - data.doclist.length%size)/size;
+    maxpos=(data.doclist.length - (data.doclist.length+1)%(size+1))/size;
     setlist();
 }
 
